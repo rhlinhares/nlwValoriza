@@ -1,6 +1,6 @@
 import { getCustomRepository } from 'typeorm';
 import { hash } from 'bcryptjs';
-import { UsersRepositories } from '../repositories/UserRepositories';
+import { UsersRepositories } from '../repositories/UsersRepositories';
 
 interface IUserRequest {
   name: string;
